@@ -8,7 +8,6 @@ export const BasicLayout = (props) => {
     <Container fluid className='basic-layout'>
       <Header />
       <Container className='content'>{children}</Container>
-      {children}
     </Container>
   );
 };
